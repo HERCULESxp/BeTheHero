@@ -8,6 +8,6 @@ module.exports = {
     if (!ong){
       res.status(404).json({"Error":"Not found ONG with this ID"});
     }
-    res.json(ong.name);
+    res.json(ong);
   }
 }
